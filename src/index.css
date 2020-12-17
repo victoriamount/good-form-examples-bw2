@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Open+Sans&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: url('./images/timj-EJ4qfFp1g8Q-unsplash.jpg') cover no-repeat; */
+  background-image: url("./images/timj-EJ4qfFp1g8Q-unsplash.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
